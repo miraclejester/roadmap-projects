@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Miracle Jester | Contact</title>
+
+    <!-- SEO Tags -->
+    <meta name="description" content="Contact page for the developer known as Miracle Jester">
+    <meta name="robots" content="index, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Miracle Jester | Contact">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Contact page for the developer known as Miracle Jester">
+    <meta property="og:locale" content="en_US">
+</head>
+<body>
+    <header>
+        <nav>
+            <section>
+                <img src="favicon-32x32.png" alt="Developer personal icon">
+                <h2>Miracle Jester</h2>
+            </section>
+            <section>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="articles.html">Articles</a>
+                <a href="contact.html">Contact</a>
+            </section>
+        </nav>
+        <section>
+            <h1>Frontend Developer</h1>
+        </section>
+    </header>
+    <main>
+        <h1>Contact Form</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="reason">Reason</label>
+            <select id="reason" name="reason">
+                <option value="question">General Question</option>
+                <option value="complaint">Complaint</option>
+                <option value="money">Free Money</option>
+                <option value="business">Business Inquiry</option>
+            </select>
+            <label for="content">Content</label>
+            <textarea id="content" name="content" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; all rights reserved 2026</p>
+    </footer>
+</body>
+</html>
