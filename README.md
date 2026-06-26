@@ -9,6 +9,7 @@ Practice projects for roadmap.sh. Project URL:
 - Pricing Comparison Table: https://roadmap.sh/projects/pricing-comparison-table
 - Blog Post Page: https://roadmap.sh/projects/blog-post-page
 - Contact Form: https://roadmap.sh/projects/contact-form
+- Photo Showcase: https://roadmap.sh/projects/photo-showcase
 
 ## Usage
 
