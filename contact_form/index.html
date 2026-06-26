@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Acme Support</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Help</a>
+            <a href="index.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact us</h1>
+        <p>Send us a message and we will get back to you.</p>
+        <form action="https://httpbin.org/post" method="post">
+            <section>
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                    <option value="">Choose a topic</option>
+                    <option value="programming">Programming</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="books">Books</option>
+                </select>
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="8" minlength="20"></textarea>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>How did you hear about us?</legend>
+                    <label><input type="radio" name="how" value="search">Search</label>
+                    <label><input type="radio" name="how" value="friend">Friend</label>
+                    <label><input type="radio" name="how" value="social_media">Social Media</label>
+                </fieldset> 
+            </section>
+            <section>
+                <input type="checkbox" id="updates" name="updates">
+                <label for="updates">Send me product updates</label>
+            </section>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Acme Support</p>
+    </footer>
+</body>
+</html>
