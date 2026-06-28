@@ -1,6 +1,6 @@
 ﻿# MiracleJester - Roadmap.sh Projects
 
-Practice projects for roadmap.sh. Project URL: 
+Practice projects for roadmap.sh. Index to check all project pages at https://miraclejester.github.io/roadmap-projects/
 
 ## HTML
 
@@ -15,7 +15,7 @@ Practice projects for roadmap.sh. Project URL:
 
 - Personal Portfolio: https://roadmap.sh/projects/portfolio-website
 
-## Usage
+## Roadmap
 
 An index of all the pages in this repo can be accessed at https://miraclejester.github.io/roadmap-projects/. This page
 is meant to change after all the projects of a specific category are completed. Current status:
