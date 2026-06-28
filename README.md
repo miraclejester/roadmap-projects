@@ -2,7 +2,7 @@
 
 Practice projects for roadmap.sh. Project URL: 
 
-## HTML Roadmap
+## HTML
 
 - Single Page CV: https://roadmap.sh/projects/single-page-cv
 - Basic HTML5 Website: https://roadmap.sh/projects/basic-html-website
@@ -11,6 +11,14 @@ Practice projects for roadmap.sh. Project URL:
 - Contact Form: https://roadmap.sh/projects/contact-form
 - Photo Showcase: https://roadmap.sh/projects/photo-showcase
 
+## CSS
+
+- Personal Portfolio: https://roadmap.sh/projects/portfolio-website
+
 ## Usage
 
-- HTML Roadmap: Download the source and open index.html on the appropriate project folder
+An index of all the pages in this repo can be accessed at https://miraclejester.github.io/roadmap-projects/. This page
+is meant to change after all the projects of a specific category are completed. Current status:
+
+- HTML5 completed. Basic index with no styling, updated with each new project
+- CSS projects in progress
