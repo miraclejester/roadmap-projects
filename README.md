@@ -14,6 +14,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 ## CSS
 
 - Personal Portfolio: https://roadmap.sh/projects/portfolio-website
+- Changelog Component: https://roadmap.sh/projects/changelog-component
 
 ## Roadmap
 
