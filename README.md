@@ -16,6 +16,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Personal Portfolio: https://roadmap.sh/projects/portfolio-website
 - Changelog Component: https://roadmap.sh/projects/changelog-component
 - Testimonial Cards: https://roadmap.sh/projects/testimonial-cards
+- Image Grid: https://roadmap.sh/projects/image-grid
 
 ## Roadmap
 
