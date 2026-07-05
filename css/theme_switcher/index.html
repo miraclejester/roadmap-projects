@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Theme Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="theme-card">
+            <div class="theme-card-switcher-container">
+                <div class="theme-card-switcher">
+                    <label for="light">
+                        <input type="radio" id="light" name="theme" checked />
+                        Light
+                    </label>
+                </div>
+                <div class="theme-card-switcher">
+                    <label for="dark">
+                        <input type="radio" id="dark" name="theme" />
+                        Dark
+                    </label>
+                </div>
+                <div class="theme-card-switcher">
+                    <label for="custom">
+                        <input type="radio" id="custom" name="theme" />
+                        Custom
+                    </label>
+                </div>
+            </div>
+            <h1>Hello, World!</h1>
+            <p>This is a simple card that changes theme with CSS variables</p>
+            <button class="primary-button">Primary Button</button>
+        </div>
+    </main>
+</body>
+</html>

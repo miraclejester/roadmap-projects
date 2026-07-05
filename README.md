@@ -18,6 +18,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Testimonial Cards: https://roadmap.sh/projects/testimonial-cards
 - Image Grid: https://roadmap.sh/projects/image-grid
 - Pricing Cards: https://roadmap.sh/projects/pricing-cards
+- Theme Switcher: https://roadmap.sh/projects/theme-switcher
 
 ## Roadmap
 

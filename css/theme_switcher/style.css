@@ -1,0 +1,112 @@
+﻿:root {
+    --background-color: white;
+    --main-text-color: black;
+    --secondary-text-color: gray;
+    --switcher-background-color: #339ff2;
+    --switcher-selected-text-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 32px;
+    max-width: 720px;
+    font-family: system-ui, sans-serif;
+}
+
+.theme-card:has(#light:checked) {
+    --background-color: white;
+    --main-text-color: black;
+    --switcher-selected-text-color: white;
+    --switcher-background-color: #339ff2;
+    --secondary-text-color: gray;
+}
+
+.theme-card:has(#dark:checked) {
+    --background-color: #2a2e30;
+    --main-text-color: white;
+    --switcher-selected-text-color: white;
+    --switcher-background-color: #339ff2;
+    --secondary-text-color: lightgray;
+}
+
+.theme-card:has(#custom:checked) {
+    --background-color: white;
+    --main-text-color: black;
+    --switcher-selected-text-color: white;
+    --switcher-background-color: #10b318;
+    --secondary-text-color: gray;
+}
+
+.theme-card {
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 48px 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    max-width: 360px;
+    background-color: var(--background-color);
+}
+
+
+.theme-card :is(h1, p) {
+    margin: 0;
+}
+
+.theme-card h1 {
+    font-size: 32px;
+    color: var(--main-text-color);
+}
+
+.theme-card p {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+}
+
+.theme-card-switcher-container {
+    display: flex;
+    gap: 0
+}
+
+.theme-card-switcher {
+    position: relative;
+}
+
+.theme-card-switcher input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.theme-card-switcher label {
+    padding: 12px 24px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: var(--background-color);
+    text-align: center;
+    margin: 0;
+    color: var(--main-text-color);
+}
+
+.theme-card-switcher label:has(input:checked) {
+    background-color: var(--switcher-background-color);
+    color: var(--switcher-selected-text-color);
+}
+
+.primary-button {
+    background-color: var(--switcher-background-color);
+    border: 1px solid gray;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    font-size: 20px;
+}
