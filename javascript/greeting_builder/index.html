@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Greeting Builder</h1>
+        <form id="greeting-form">
+            <label for="name">Name</label>
+            <input id="name" placeholder="input name..." required />
+            <label for="surname">Surname</label>
+            <input id="surname" placeholder="input surname..." required />
+            <label for="time-of-day">Time of Day</label>
+            <select id="time-of-day">
+                <option value="morning">Morning</option>
+                <option value="evening">Evening</option>
+                <option value="afternoon">Afternoon</option>
+            </select>
+            <button type="submit">Add greeting</button>
+        </form>
+        <ul id="greeting-list"></ul>
+        <script src="greeting.js"></script>
+    </main>
+</body>
+</html>

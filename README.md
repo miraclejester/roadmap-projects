@@ -20,6 +20,10 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Pricing Cards: https://roadmap.sh/projects/pricing-cards
 - Theme Switcher: https://roadmap.sh/projects/theme-switcher
 
+## Javascript
+
+- Greeting Builder: https://roadmap.sh/projects/js-greeting-builder
+
 ## Roadmap
 
 An index of all the pages in this repo can be accessed at https://miraclejester.github.io/roadmap-projects/. This page
@@ -27,3 +31,4 @@ is meant to change after all the projects of a specific category are completed. 
 
 - HTML5 completed. Basic index with no styling, updated with each new project
 - CSS completed. Main page has a very basic styling now
+- Javascript in progress
