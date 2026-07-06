@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price Calculator</title>
+    <script src="prices.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Price Calculator</h1>
+        <p>Enter percents as a whole number (e.g. 100 for a hundred percent)</p>
+        <form id="price-form">
+            <label for="price-value">Initial Price</label>
+            <input id="price-value" type="number" required/>
+            <label for="price-discount">Discount Percent</label>
+            <input id="price-discount" type="number" required/>
+            <label for="price-tax">Tax Percent</label>
+            <input id="price-tax" type="number" required/>
+            <button type="submit">Calculate Price</button>
+        </form>
+        <p id="initial-price">Initial Price: </p>
+        <p id="discount">Discount: </p>
+        <p id="tax">Tax: </p>
+        <p id="final-price">Final Price: </p>
+    </main>
+</body>
+</html>

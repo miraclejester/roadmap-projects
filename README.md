@@ -26,6 +26,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Temperature Converter: https://roadmap.sh/projects/js-temperature-converter
 - Number Checker: https://roadmap.sh/projects/js-number-checker
 - String Formatter: https://roadmap.sh/projects/js-string-formatter
+- Price Calculator: https://roadmap.sh/projects/js-price-calculator
 
 ## Roadmap
 
