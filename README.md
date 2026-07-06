@@ -27,6 +27,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Number Checker: https://roadmap.sh/projects/js-number-checker
 - String Formatter: https://roadmap.sh/projects/js-string-formatter
 - Price Calculator: https://roadmap.sh/projects/js-price-calculator
+- Cart Total Calculator: https://roadmap.sh/projects/js-cart-total-calculator
 
 ## Roadmap
 

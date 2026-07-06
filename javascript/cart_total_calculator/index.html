@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart Total Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Cart Total Calculator</h1>
+        <p>Items with the same name and price are grouped together</p>
+        <div id="main-container">
+            <div id="form-container">
+                <form id="cart-form">
+                    <label for="item-name-input">Item Name</label>
+                    <input id="item-name-input" required/>
+                    <label for="item-price-input">Item Price</label>
+                    <input id="item-price-input" type="number" min="1" required />
+                    <label for="item-quantity-input">Item Quantity</label>
+                    <input id="item-quantity-input" type="number" min="1" step="1" required />
+                    <button type="submit">Add Item</button>
+                </form>
+                <form id="calculate-form">
+                    <label for="cart-discount-input">Discount Percentage</label>
+                    <input id="cart-discount-input" type="number" required />
+                    <label for="cart-tax-input">Tax Percentage</label>
+                    <input id="cart-tax-input" type="number" required />
+                    <button type="submit">Calculate Total</button>
+                </form>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                </tr>
+                </thead>
+                <tbody id="price-table-body">
+                </tbody>
+            </table>
+        </div>
+        <div id="results">
+            <p>Subtotal: 0</p>
+            <p>Discount: 0</p>
+            <p>Tax: 0</p>
+            <p>Total: 0</p>
+        </div>
+    </main>
+</body>
+</html>
