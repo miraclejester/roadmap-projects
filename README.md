@@ -24,6 +24,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 
 - Greeting Builder: https://roadmap.sh/projects/js-greeting-builder
 - Temperature Converter: https://roadmap.sh/projects/js-temperature-converter
+- Number Checker: https://roadmap.sh/projects/js-number-checker
 
 ## Roadmap
 
