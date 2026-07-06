@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Report Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="grades.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Grade Report Generator</h1>
+        <form id="grade-form">
+            <label for="name-input">Name</label>
+            <input id="name-input" required />
+            <label for="grade-input">Grade Score (0-100)</label>
+            <input id="grade-input" type="number" min="0" max="100" step="1" required />
+            <button type="submit">Generate Report</button>
+        </form>
+        <p id="report-text">Report goes here</p>
+    </main>
+</body>
+</html>

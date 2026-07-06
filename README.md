@@ -28,6 +28,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - String Formatter: https://roadmap.sh/projects/js-string-formatter
 - Price Calculator: https://roadmap.sh/projects/js-price-calculator
 - Cart Total Calculator: https://roadmap.sh/projects/js-cart-total-calculator
+- Grade Report Generator: https://roadmap.sh/projects/js-grade-report-generator
 
 ## Roadmap
 
@@ -36,4 +37,4 @@ is meant to change after all the projects of a specific category are completed. 
 
 - HTML5 completed. Basic index with no styling, updated with each new project
 - CSS completed. Main page has a very basic styling now
-- Javascript in progress
+- JavaScript in progress
