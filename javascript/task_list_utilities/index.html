@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List Utilities</title>
+    <script src="tasks.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <h1>Task List Utilities</h1>
+        <p>Note: It is not possible to remove the last element of the base list</p>
+        
+        <h2>Base Task List</h2>
+        <ul id="persistent-task-list"></ul>
+        
+        <h2>Modified Task List</h2>
+        <ul id="modified-task-list"></ul>
+        
+        <div id="forms-container">
+            <form id="add-task-form">
+                <h3>Add Task</h3>
+                <label for="task-title-input">Task Title</label>
+                <input id="task-title-input" required />
+                <button type="submit">Add Task</button>
+            </form>
+            <form id="complete-task-form">
+                <h3>Complete Task</h3>
+                <label for="complete-task-id-input">Task ID</label>
+                <input id="complete-task-id-input" type="number" required />
+                <button type="submit">Complete Task</button>
+            </form>
+            <form id="remove-task-form">
+                <h3>Remove Task</h3>
+                <label for="remove-task-id-input">Task ID</label>
+                <input id="remove-task-id-input" type="number" required />
+                <button type="submit">Remove Task</button>
+            </form>
+        </div>
+        <button id="commit-button" type="button">Commit modified list to base</button>
+        <p id="incomplete-status">Incomplete count goes here</p>
+    </main>
+</body>
+</html>
