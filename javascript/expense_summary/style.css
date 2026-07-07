@@ -1,0 +1,17 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+main {
+    max-width: 640px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    gap: 16px;
+}

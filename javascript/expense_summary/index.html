@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Summary</title>
+    <script src="expenses.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Expense Summary</h1>
+        <h2>Expenses</h2>
+        <ul id="expenses-list"></ul>
+        <form id="expense-form">
+            <label for="category-input">Category</label>
+            <input id="category-input" required />
+            <label for="amount-input">Amount</label>
+            <input id="amount-input" type="number" min="1" step="1" required/>
+            <button type="submit">Add Expense</button>
+        </form>
+        <p id="summary-message">No expenses recorded</p>
+    </main>
+</body>
+</html>
