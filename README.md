@@ -33,6 +33,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - Expense Summary: https://roadmap.sh/projects/js-expense-summary
 - Product Search and Filter: https://roadmap.sh/projects/js-product-search-and-filter
 - User Profile Formatter: https://roadmap.sh/projects/js-user-profile-formatter
+- Quiz Score Calculator: https://roadmap.sh/projects/js-quiz-score-calculator
 
 ## Roadmap
 
