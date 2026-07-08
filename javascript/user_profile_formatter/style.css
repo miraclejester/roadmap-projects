@@ -1,0 +1,21 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+main {
+    max-width: 420px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 16px;
+}
+
+button {
+    grid-column: span 2;
+}

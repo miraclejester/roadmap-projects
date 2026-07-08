@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile Formatter</title>
+    <script src="users.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>User Profile Formatter</h1>
+        <div id="user-summary">
+            <p>User Summary will appear here</p>
+        </div>
+        <form id="user-form">
+            <label for="id-input">ID</label>
+            <input id="id-input" type="number" min="0" step="1" required />
+            <label for="first-name-input">First Name</label>
+            <input id="first-name-input" required />
+            <label for="last-name-input">Last Name</label>
+            <input id="last-name-input" required />
+            <label for="email-input">Email</label>
+            <input id="email-input" type="email" required />
+            <label for="phone-input">Phone</label>
+            <input id="phone-input" type="tel" />
+            <label for="city-input">City</label>
+            <input id="city-input" required />
+            <label for="country-input">Country</label>
+            <input id="country-input" required />
+            <label for="status-input">Status</label>
+            <select id="status-input">
+                <option value="active">Active</option>
+                <option value="legacy">Legacy</option>
+                <option value="pending">Pending</option>
+            </select>
+            <label for="plan-input">Plan</label>
+            <select id="plan-input">
+                <option value="basic">Basic</option>
+                <option value="pro">Pro</option>
+                <option value="business">Business</option>
+            </select>
+            <button type="submit">Get Summary</button>
+        </form>
+    </main>
+</body>
+</html>
