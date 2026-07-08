@@ -35,6 +35,7 @@ Practice projects for roadmap.sh. Index to check all project pages at https://mi
 - User Profile Formatter: https://roadmap.sh/projects/js-user-profile-formatter
 - Quiz Score Calculator: https://roadmap.sh/projects/js-quiz-score-calculator
 - JSON Response Normalizer: https://roadmap.sh/projects/js-json-response-normalizer
+- Password Rule Checker: https://roadmap.sh/projects/js-password-rule-checker
 
 ## Roadmap
 
