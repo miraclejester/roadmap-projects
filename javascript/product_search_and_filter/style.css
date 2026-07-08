@@ -1,0 +1,11 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+#get-stock-button {
+    margin-top: 16px;
+}

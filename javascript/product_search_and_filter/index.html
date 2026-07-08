@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Search and Filter</title>
+    <script src="products.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Product Search and Filter</h1>
+        <div id="product-list"></div>
+        <div id="results-area">
+            <p>Operations results here</p>
+        </div>
+        <form id="filter-category-form">
+            <h2>Filter by Category</h2>
+            <label for="filter-category-input">Category</label>
+            <input id="filter-category-input" required />
+            <button type="submit">Filter</button>
+        </form>
+        <form id="filter-max-price-form">
+            <h2>Filter by Max Price</h2>
+            <label for="filter-max-price-input">Max Price</label>
+            <input id="filter-max-price-input" type="number" min="0" step="1" required />
+            <button type="submit">Filter</button>
+        </form>
+        <form id="find-product-form">
+            <h2>Find Product by ID</h2>
+            <label for="find-product-id-input">Product ID</label>
+            <input id="find-product-id-input" type="number" min="1" step="1" required />
+            <button type="submit">Search</button>
+        </form>
+        <form id="search-product-form">
+            <h2>Search for a Product</h2>
+            <label for="search-product-input">Search Text</label>
+            <input id="search-product-input" required />
+            <button type="submit">Search</button>
+        </form>
+        <button id="get-stock-button" type="button">Get Products in Stock</button>
+    </main>
+</body>
+</html>
