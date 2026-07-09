@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Status Helper</title>
+    <script src="orders.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Order Status Helper</h1>
+        <h2>Current Order Summary</h2>
+        <div id="summary-container"></div>
+        <h2>Replace Current Order</h2>
+        <form id="order-form">
+            <label for="id-input">Order ID</label>
+            <input id="id-input" required />
+            <label for="name-input">Customer Name</label>
+            <input id="name-input" required />
+            <label for="email-input">Customer Email</label>
+            <input id="email-input" type="email" />
+            <label for="paid-input">Payment Status</label>
+            <select id="paid-input">
+                <option value="paid">Paid</option>
+                <option value="deferred">Deferred</option>
+                <option value="unpaid">Unpaid</option>
+            </select>
+            <label for="shipping-input">Shipping Status</label>
+            <select id="shipping-input">
+                <option value="shipped">Shipped</option>
+                <option value="lost">Lost</option>
+                <option value="processing">Processing</option>
+            </select>
+            <label for="estimated-input">Estimated Delivery</label>
+            <input id="estimated-input" type="date" required />
+            <p>Items</p>
+            <div id="order-items-input-container"></div>
+            <button id='add-item-button' type="button">Add New Item</button>
+            <button id="remove-last-item-button" type="button">Remove Last Item</button>
+            <button type="submit">Create Order</button>
+        </form>
+    </main>
+</body>
+</html>
