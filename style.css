@@ -12,7 +12,7 @@ header h1 {
     text-align: center;
 }
 
-main {
+#project-set-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;

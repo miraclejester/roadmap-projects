@@ -45,4 +45,4 @@ is meant to change after all the projects of a specific category are completed. 
 
 - HTML5 completed. Basic index with no styling, updated with each new project
 - CSS completed. Main page has a very basic styling now
-- JavaScript in progress
+- JavaScript done. Changed the main site so projects are fetched from a local object
